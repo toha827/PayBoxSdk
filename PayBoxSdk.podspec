@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'PayBoxSdk/*.h'
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/PayBox/SDK_iOS-input-.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/PayBox/SDK_iOS-input-.git", :branch => "master" }
   s.source_files  = 'PayBoxSdk/*.{swift,h}', 'PayBoxSdk/*/*.{swift,h}'
   s.libraries = 'z'
   
