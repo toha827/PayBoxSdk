@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {'SWIFT_VERSION' => '4.2','LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/PayBoxSdk/'}
   s.author             = { "Arman" => "am@paybox.money" }
   s.public_header_files = 'PayBoxSdk/*.h'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.requires_arc = true
   s.source       = { :git => "https://github.com/PayBox/SDK_iOS-input-.git", :branch => "master" }
   s.source_files  = 'PayBoxSdk/*.{swift,h}', 'PayBoxSdk/*/*.{swift,h}'
